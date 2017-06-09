@@ -21,7 +21,8 @@
     <TimePicker
         android:id="@+id/timePicker"
         android:layout_width="match_parent"
-        android:layout_height="91dp" />
+        android:layout_height="91dp"
+        android:layout_weight="1.04" />
 
     <Button
         android:id="@+id/button3"
