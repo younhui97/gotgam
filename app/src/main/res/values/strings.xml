@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">gotgam</string>
+    <string name="abc">abc</string>
+    <string name="message">messange</string>
+    <string name="emergency">emergency</string>
+    <string name="nextactivity" />
+</resources>
