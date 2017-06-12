@@ -19,8 +19,10 @@ public class NextActivity extends Activity {
 
     public void onClick02(View v)
     {
-        Intent intent = new Intent( Intent.ACTION_VIEW,Uri.parse( "sms:01087319379" ));
-        startActivity(intent);
+        Intent intent = new Intent( Intent.ACTION_SENDTO );
+        intent.putExtra( "sms_body", " 지금 집 가는 중입니다. " );
+        intent.setData( Uri.parse( "smsto:01087319379; 01087130031" ) );
+        startActivity( intent );
 
     }
 
