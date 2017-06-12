@@ -12,34 +12,34 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        app:srcCompat="@drawable/gotgam"
+        android:layout_width="443dp"
+        android:layout_height="53dp"
+        android:layout_weight="0.65"
         android:contentDescription="@string/abc"
-/>
+        android:src="@drawable/gotgammoji" />
 
-    <TimePicker
-        android:id="@+id/timePicker"
-        android:layout_width="match_parent"
-        android:layout_height="91dp"
-        android:layout_weight="1.04" />
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:targetApi="jelly_bean_mr1" />
+
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button2"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="104dp"
-        android:layout_height="44dp"
-        android:layout_weight="0.02"
-        android:elevation="0dp"
-        android:onClick="onClick02"
-        android:text="@string/message" />
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:onClick="onClick03"
+        android:text="@string/Start" />
 
     <Button
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="122dp"
+        android:layout_width="118dp"
         android:layout_height="wrap_content"
-        android:onClick="onclick1"
+        android:onClick="onClick01"
         android:text="@string/emergency" />
 
 
